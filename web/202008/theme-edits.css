@@ -1,1 +1,45 @@
-
+/* IMPORT FONTS */
+@font-face {
+    font-family: BRNM Core;
+    src: url('https://dl.dropbox.com/s/jmnxuooes7ohyxp/Inter-VariableFont_slnt%2Cwght.ttf') format("TrueType");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: BRNM Display;
+    src: url('https://dl.dropbox.com/s/oxuz3o88o5j4yj4/made_outer_sans_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: BRNM Display Outline;
+    src: url('https://dl.dropbox.com/s/69nbwxqy3xkq9q0/made_outer_sans_outline_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  /* PRODUCT NAV MENU STYLE */
+  #product_next_prev span a {  
+  
+  } 
+  
+  #product_next_prev .next {
+    float: right;
+    display: inline-block;
+  }
+  #product_next_prev span a[href] /*/ non-link still markedup as a link */  { 
+  }
+  
+  #product_next_prev span a:hover { 
+    
+  } 
+  
+  #product_next_prev span a[href]:hover { 
+    position:relative; top:0px; left: 0px; 
+  }
+  
+  /* ALERT MESSAGES */
+  .alert-inline {  
+  padding: 1em; display: block; font-weight: 800; margin: 1em auto; background: #DD8155; text-align: center;
+  } 
